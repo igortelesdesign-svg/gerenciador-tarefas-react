@@ -1,16 +1,64 @@
-# React + Vite
+# Gerenciador de Tarefas — React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido por Igor Teles como atividade prática da Aula 07 do curso de Desenvolvimento Full Stack da Digital College.
 
-Currently, two official plugins are available:
+## Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Aplicação web desenvolvida em React para organizar e gerenciar tarefas do dia a dia.
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Adicionar novas tarefas
+- Marcar tarefas como concluídas
+- Remover tarefas
+- Contabilizar tarefas concluídas
+- Limitar o texto a 60 caracteres
+- Salvar tarefas no localStorage
+- Manter os dados após atualizar a página
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Vite
+- HTML5
+- CSS3
+- Git e GitHub
+
+## Conceitos aplicados
+
+- Componentes funcionais
+- Props
+- useState
+- useEffect
+- Renderização condicional
+- Renderização de listas
+- Manipulação de eventos
+- Spread operator
+- localStorage
+
+## Organização dos componentes
+
+O projeto utiliza a estrutura:
+
+- atoms
+- molecules
+- organisms
+- templates
+- pages
+
+## Como executar
+
+1. Clone o repositório.
+2. Abra a pasta no terminal.
+3. Instale as dependências com `npm install`.
+4. Inicie o projeto com `npm run dev`.
+5. Abra o endereço informado pelo Vite.
+
+## Autor
+
+Igor Teles
+
+Desenvolvimento Full Stack — Digital College
+
+Aula 07 — React

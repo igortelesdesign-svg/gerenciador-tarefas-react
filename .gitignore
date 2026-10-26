@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+
+# Arquivos gerados pelo Vite
+dist/
+dist-ssr/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Arquivos do macOS
+.DS_Store
+
+# Configurações locais
+.vscode/

@@ -1,0 +1,25 @@
+.itemList{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(243, 243,243);
+    border-radius: 5px;
+    padding: 4px 0 4px 4px;
+}
+
+.btnItem{
+    padding: 5px 10px;
+    background-color: #fe0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.5em;
+    &:hover{
+        background-color: #890303;
+    }
+}
+
+.iptCheck{
+    cursor: pointer;
+}

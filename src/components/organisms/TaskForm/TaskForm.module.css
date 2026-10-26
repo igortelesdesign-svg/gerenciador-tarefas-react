@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.iptTask{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btnSubmit{
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: #2980b9;
+    }
+}
